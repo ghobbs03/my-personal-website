@@ -1,4 +1,13 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
 
-document.querySelector("body").appendChild(h2);
+// I like this glass jewelry company
+document.getElementById('necklace').addEventListener('click', necklaceClickHandler);
+
+function necklaceClickHandler() {
+    window.open("https://www.brookecallahan.com/");
+}
+
+document.getElementById('tv').addEventListener('click', tvClickHandler);
+
+function tvClickHandler() {
+    window.open("https://letterboxd.com/studioghobbli/");
+}
