@@ -1,31 +1,43 @@
+
 #img_container {
-    display: grid;
-    height: 100%;
+    /*display: grid;*/
+    float: center;
+    height: 70%;
+    margin: auto;
 }
 
 img {
-    max-width: 100%;
-    max-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    max-height: 70%;
 }
 
-map {
-    max-width: 100%;
-    max-height: 100%;
+body {
+    font-family: 'Raleway';
 }
-
-
 
 
 
 #container {
-    position: absolute;
-    top: 90%;
-    left: 43%;
+    
+    top: 80%;
+    display: block;
     text-align: center;
 
 }
 
 @media only screen and (max-width: 500px) {
+
+    #img_container {
+        height: 100%;
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
 
     #container {
         top: 40%;
