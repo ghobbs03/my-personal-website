@@ -87,46 +87,6 @@ a:hover {
     color: midnightblue;
 }
 
-
-#backdoor {
-    position: absolute;
-    top: 28%;
-    left: 35%;
-    background-color: transparent;
-    height: 18vh;
-    width: 2.2vw;
-    cursor: pointer;
-}
-
-
-#face {
-    background-color: transparent;
-    position: absolute;
-    top: 35%;
-    left: 16.5%;
-    height: 19vh;
-    width: 8vw;
-    cursor: pointer;
-}
-
-
-#necklace {
-    background-color: transparent;
-    position: absolute;
-    top: 61.5%;
-    left: 20.5%;
-    height: 3.5vh;
-    width: 2vw;
-    cursor: pointer;
-}
-
-#tv {
-    background-color: transparent;
-    border-radius: 25%;
-    position: absolute;
-    top: 39%;
-    left: 59%;
-    height: 17vh;
-    width: 12vw;
+area:hover {
     cursor: pointer;
 }
