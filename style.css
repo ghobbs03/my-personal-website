@@ -5,11 +5,6 @@
 
 }
 
-@font-face {
-    font-family: "Chinook";
-    src: url('Chinook-Freebie.otf') format('opentype');
-}
-
 
 #outer {
     width: 100vw;
@@ -78,6 +73,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: "Raleway";
+    /*color:rgb(41, 84, 78)*/
 }
 
 
