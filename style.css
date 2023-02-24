@@ -26,14 +26,13 @@ img {
 
 #container {
     position: absolute;
-    bottom: 1.5%;
+    bottom: 1%;
     left: 22%;
     width: 50%;
     height: 20%;
     z-index: 1;
     text-align: center;
     display: block;
-   
 
 }
 
@@ -42,9 +41,24 @@ body {
     font-size: 22pt;
 }
 
+#bio {
+    font-size: 12pt;
+    border-radius: 20px;
+    background-color: #F8F8F8;
+    opacity: 60%;
+    margin-top: 2vh;
+    position: absolute;
+    z-index: 1;
+    top: 2%;
+    left: 18%;
+    width: 70vw;
+    height: 10vh;
+    visibility: hidden;
+
+}
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
 
     #img_container {
         height: 100%;
@@ -62,8 +76,15 @@ body {
     
 
     #container {
-        top: 70%;
+        top: 55%;
         left: 20vw;
+    }
+
+
+    #bio {
+        top: 90%;
+        left: 12%;
+        font-size: small;
     }
 }
 
@@ -91,3 +112,4 @@ a:hover {
 area:hover {
     cursor: pointer;
 }
+

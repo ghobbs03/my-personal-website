@@ -1,38 +1,29 @@
 document.querySelector("#face").addEventListener('click', () => aboutMeHandler());
 
 let isAboutMeShowing = false;
-const bio = document.createElement('div');
+const bio = document.querySelector('#bio');
 
 
 function aboutMeHandler() {
     const infoContainer = document.querySelector("#container");
-    infoContainer.prepend(bio);
-    bio.innerHTML =
-        `<center><p> Gail Hobbs is a junior software developer. 
-        In her free time she enjoys singing, reading, solving chess puzzles and cryptic crosswords, 
-        eating ramen, and watching movies that give her heart palpitations. Feel free to stay a while.</p></center>
-        `;
+    infoContainer.before(bio);
 
-    bio.style.fontSize = "12pt";
-    bio.style.borderRadius = "20px";
-    bio.style.display = "none";
-    bio.style.backgroundColor = "#F8F8F8";
-    bio.style.opacity = "65%";
-    bio.style.marginTop = "8vh";
-    
 
     isAboutMeShowing = !isAboutMeShowing;
-    const name = document.querySelector("h1");
+    const name = document.querySelector("h2");
 
     if (isAboutMeShowing) {
-        name.style.display = "none";
-        bio.style.display = "block";
+        bio.innerHTML =
+        `<center>Gail Hobbs is a junior software developer. 
+        In her free time she enjoys singing, reading, solving chess puzzles and cryptic crosswords, 
+        eating ramen, and watching movies that give her heart palpitations. Feel free to stay a while.</center>
+        `;
 
+        bio.style.visibility = "visible";
+        
 
     } else {
-        name.style.display = "block";
-        bio.remove();
-
+        bio.style.visibility = "hidden";
     }
 
 
