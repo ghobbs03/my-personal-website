@@ -82,8 +82,9 @@ body {
 
     #bio {
         min-height: 80px;
-        top: 68vh;
+        top: 71vh;
         left: 12%;
+        overflow: scroll;
         font-size: small;
     }
 }
