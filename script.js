@@ -8,16 +8,18 @@ function aboutMeHandler() {
     const infoContainer = document.querySelector("#container");
     infoContainer.prepend(bio);
     bio.innerHTML =
-        `<center><p style="font-size: 15pt;"> Gail Hobbs is a junior software developer. 
+        `<center><p> Gail Hobbs is a junior software developer. 
         In her free time she enjoys singing, reading, solving chess puzzles and cryptic crosswords, 
         eating ramen, and watching movies that give her heart palpitations. Feel free to stay a while.</p></center>
         `;
 
+    bio.style.fontSize = "12pt";
     bio.style.borderRadius = "20px";
     bio.style.display = "none";
     bio.style.backgroundColor = "#F8F8F8";
-    bio.style.opacity = "70%";
-    bio.style.marginTop = "5vh";
+    bio.style.opacity = "65%";
+    bio.style.marginTop = "8vh";
+    
 
     isAboutMeShowing = !isAboutMeShowing;
     const name = document.querySelector("h1");

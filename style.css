@@ -26,13 +26,14 @@ img {
 
 #container {
     position: absolute;
-    bottom: 1%;
+    bottom: 1.5%;
     left: 22%;
     width: 50%;
     height: 20%;
     z-index: 1;
     text-align: center;
     display: block;
+   
 
 }
 
@@ -43,7 +44,7 @@ body {
 
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
 
     #img_container {
         height: 100%;
@@ -61,7 +62,7 @@ body {
     
 
     #container {
-        top: 50%;
+        top: 70%;
         left: 20vw;
     }
 }
