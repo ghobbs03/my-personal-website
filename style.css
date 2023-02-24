@@ -108,9 +108,9 @@ a {
 
 a:hover {
     color: midnightblue;
+    cursor: pointer;
 }
 
 area:hover {
     cursor: pointer;
 }
-
