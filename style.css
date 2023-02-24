@@ -52,7 +52,6 @@ body {
     top: 2%;
     left: 18%;
     width: 70vw;
-    height: 10vh;
     visibility: hidden;
 
 }
@@ -82,7 +81,7 @@ body {
 
 
     #bio {
-        top: 90%;
+        top: 61vh;
         left: 12%;
         font-size: small;
     }
