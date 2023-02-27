@@ -50,7 +50,7 @@ body {
     position: absolute;
     z-index: 1;
     top: 2%;
-    left: 18%;
+    left: 12%;
     width: 70vw;
     visibility: hidden;
 
@@ -60,6 +60,7 @@ body {
 @media only screen and (max-width: 500px) {
 
     #img_container {
+        margin-top: 20vh;
         height: 100%;
     }
 
@@ -82,10 +83,11 @@ body {
 
     #bio {
         min-height: 80px;
-        top: 71vh;
+        top: 2vh;
         left: 12%;
         overflow: scroll;
         font-size: small;
+        padding: 5pt;
     }
 }
 
@@ -114,3 +116,5 @@ a:hover {
 area:hover {
     cursor: pointer;
 }
+
+
