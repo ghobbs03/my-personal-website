@@ -15,9 +15,9 @@ function aboutMeHandler() {
 
     if (isAboutMeShowing) {
         bio.innerHTML =
-        `Gail Hobbs is a junior software developer. 
+        `Gail Hobbs is a junior developer. 
         In her free time she enjoys singing, reading, eating ramen, making animations like the one you see here, solving chess puzzles and cryptic crosswords,  and watching movies that induce heart palpitations. You can find out more about how I think and work <a href="https://secure.plum.io/en/p/LMTOJ-j9iaxqKfq7qr1dFg" style="color: midnightblue" target="_blank" rel="noopener noreferrer"> here.</a>
-         Feel free to look around.
+         Feel free to click around.
         `;
 
         bio.style.visibility = "visible";
