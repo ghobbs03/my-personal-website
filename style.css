@@ -92,7 +92,7 @@ body {
 }
 
 #name {
-    background-image: url("http://www.gimpuj.info/gallery/16278_15_07_09_4_24_56.gif");
+    background-image: url("./images/water.gif");
     background-size: cover;
     background-clip: padding-box;
     -webkit-background-clip: text;
@@ -100,8 +100,6 @@ body {
     font-family: "Raleway";
     /*color:rgb(41, 84, 78)*/
 }
-
-
 
 a {
     text-decoration: none;
